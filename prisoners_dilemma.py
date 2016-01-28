@@ -78,6 +78,10 @@ def play_round(player1, player2, history1, history2, score1, score2):
     #send back the updated histories and scores
     return (new_history1, new_history2, new_score1, new_score2)
    
+def(player)
+    '''random code'''
+
+
 def play_iterative_rounds(player1, player2):
     '''
     Plays a random number of rounds (between 100 and 200 rounds) 
