@@ -96,6 +96,9 @@ def play_iterative_rounds(player1, player2):
             play_round(player1, player2, moves1, moves2, score1, score2)
     return (moves1, moves2, score1, score2)
 
+def(player)
+'''random code'''
+
 def get_action(player, history, opponent_history, score, opponent_score, getting_team_name=False):
     '''Gets the strategy for the player, given their own history and that of
     their opponent, as well as the current scores within this pairing.
