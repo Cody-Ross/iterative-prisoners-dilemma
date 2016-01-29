@@ -16,7 +16,7 @@ Aggregated results are stored in tournament.txt
 Unpublished work (c)2013 Project Lead The Way
 CSE Project 1.3.5 Collaborating on a Project
 Draft, Do Not Distribute
-Version 8/28/2016 
+Version 8/29/2016 
 '''
 
 import random
@@ -161,7 +161,9 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     
     # EACH STUDENT TEAM CAN CHANGE ONE OF THESE elif SEGMENTS OF CODE.
 
-
+    elif player == 3:
+        if player 1 != 3:
+            return 'player does not equal 3'
 
 
 
