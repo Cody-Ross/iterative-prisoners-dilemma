@@ -178,7 +178,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
 
 
 
-    ######
+    #####
     ######
     #
     elif player == 4:
