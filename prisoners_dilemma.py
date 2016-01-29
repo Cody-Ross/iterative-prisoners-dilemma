@@ -77,9 +77,7 @@ def play_round(player1, player2, history1, history2, score1, score2):
                     
     #send back the updated histories and scores
     return (new_history1, new_history2, new_score1, new_score2)
-   
-def(player)
-    '''random code'''
+
 
 
 def play_iterative_rounds(player1, player2):
@@ -173,7 +171,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     ######
     #
     elif player == 3:
-        if player 1 != 3:
+        if player1 != 3:
             return 'player does not equal 3'
 
 
