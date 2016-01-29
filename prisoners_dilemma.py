@@ -174,9 +174,9 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     ######
     #
   
-    if player5 = 'C':
+    if player5 == 'C':
         return 'B'
-    elif player5 = 'B':
+    elif player5 == 'B':
         return 'C'
         
 
