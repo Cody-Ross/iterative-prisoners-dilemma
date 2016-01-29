@@ -16,7 +16,7 @@ Aggregated results are stored in tournament.txt
 Unpublished work (c)2013 Project Lead The Way
 CSE Project 1.3.5 Collaborating on a Project
 Draft, Do Not Distribute
-Version 8/28/2016 
+Version 1/29/2016 
 '''
 
 import random
@@ -174,9 +174,9 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     ######
     #
   
-    if player5 = 'C':
+    if player5 == 'C':
         return 'B'
-    elif player5 = 'B':
+    elif player5 == 'B':
         return 'C'
         
 
