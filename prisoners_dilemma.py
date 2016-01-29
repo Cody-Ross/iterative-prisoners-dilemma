@@ -78,7 +78,8 @@ def play_round(player1, player2, history1, history2, score1, score2):
     #send back the updated histories and scores
     return (new_history1, new_history2, new_score1, new_score2)
    
-
+def player():
+    '''random code'''
 
 
 def play_iterative_rounds(player1, player2):
@@ -177,11 +178,17 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     ######
     #
     elif player == 3:
-           if player5 == 'C':
-                return 'B'
-    elif player5 == 'B':
-        return 'C'
-        
+        if getting_team_name:
+            return 'loyal vengeful'
+        else:
+            # use history, opponent_history, score, opponent_score
+            # to compute your strategy
+            if len(opponent_history)==0: #It's the first round: collude
+                return 'c'
+            elif history[-1]=='c' and opponent_history[-1]=='b':
+                return 'b' # betray is they were severely punished last time
+            else:
+                return 'c' #otherwise collude
 
 
 
@@ -390,17 +397,11 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     ######
     #
     elif player == 11:
-        if getting_team_name:
-            return 'loyal vengeful'
-        else:
-            # use history, opponent_history, score, opponent_score
-            # to compute your strategy
-            if len(opponent_history)==0: #It's the first round: collude
-                return 'c'
-            elif history[-1]=='c' and opponent_history[-1]=='b':
-                return 'b' # betray is they were severely punished last time
-            else:
-                return 'c' #otherwise collude
+           if player5 == 'C':
+                return 'B'
+    elif player5 == 'B':
+        return 'C'
+        
 
 
 
