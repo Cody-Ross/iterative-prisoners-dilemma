@@ -108,7 +108,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     The history strings have the first round between these two players 
     as the first character and the most recent round as the last character.'''
       
-    ######
+    #####
     ######
     #
     # This example player always colludes
