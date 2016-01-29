@@ -164,30 +164,16 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     
     # EACH STUDENT TEAM CAN CHANGE ONE OF THESE elif SEGMENTS OF CODE.
 
-
-
-
-
-
-
-
-
-
-    ######
-    ######
-    #
     elif player == 3:
-           if player5 == 'C':
-                return 'B'
-    elif player5 == 'B':
-        return 'C'
-        
-
-
-
-
-
-
+        if getting_team_name:
+            return 'CodyRiley'
+        else: 
+            if len(opponent_history)==0:
+                return 'C'
+            elif history[-1]=='c' and opponent_history[-1]=='b':
+                return 'b'
+            else:
+                return 'c'
 
 
 
